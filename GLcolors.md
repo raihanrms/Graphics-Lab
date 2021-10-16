@@ -1,4 +1,4 @@
-aliceblue = {0.941f, 0.973f, 1.000f};
+- ![#F0F8FF] aliceblue = {0.941f, 0.973f, 1.000f};
 antiquewhite = {0.980f, 0.922f, 0.843f};
 aqua = {0.000f, 1.000f, 1.000f};
 aquamarine = {0.498f, 1.000f, 0.831f};
