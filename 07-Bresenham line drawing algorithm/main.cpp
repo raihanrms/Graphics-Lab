@@ -72,7 +72,7 @@ glutInit(&argc, argv);
 glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 glutInitWindowSize (500, 500);
 glutInitWindowPosition (100, 100);
-glutCreateWindow ("hello");
+glutCreateWindow ("Bresenham line");
 init ();
 glutDisplayFunc(display);
 glutMainLoop();
