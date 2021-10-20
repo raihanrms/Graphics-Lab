@@ -68,6 +68,7 @@ int main(int argc, char** argv)
         scanf("%f %f",&x2,&y2);
         dx=x2-x1;
         dy=y2-y1;
+        
 glutInit(&argc, argv);
 glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 glutInitWindowSize (500, 500);
