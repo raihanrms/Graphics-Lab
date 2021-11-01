@@ -3,15 +3,15 @@
 
 void init(void)
 {
-	glClearColor(1.0, 1.0, 1.0, 0.0);	// Set display window colour to white
+	glClearColor(1.0, 1.0, 1.0, 0.0);	        // Set display window colour to white
 
-	glMatrixMode(GL_PROJECTION);		// Set projection parameters
+	glMatrixMode(GL_PROJECTION);		        // Set projection parameters
 	gluOrtho2D(0.0, 400.0, 0.0, 400.0);
 }
 
 void drawShapes(void)
 {
-	glClear(GL_COLOR_BUFFER_BIT);	// Clear display window
+	glClear(GL_COLOR_BUFFER_BIT);	            // Clear display window
 
 	// background sky
 	glColor3f (0.000f, 0.749f, 1.000f); // deep sky blue
@@ -118,21 +118,21 @@ void drawShapes(void)
         glVertex2i(290,300);
     glEnd();
 
-	glFlush();	// Process all OpenGL routines
+	glFlush();	                                // Process all OpenGL routines
 }
 
 int main(int argc, char* argv[])
 {
-	glutInit(&argc, argv);						                        // Initalise GLUT
+	glutInit(&argc, argv);					    // Initalise GLUT
 	glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);	// Set display mode
 
-	glutInitWindowPosition(500, 100);			                // Set window position
-	glutInitWindowSize(800, 700);				                // Set window size
-	glutCreateWindow("GL Line house");	                // Create display window
+	glutInitWindowPosition(500, 100);			// Set window position
+	glutInitWindowSize(800, 700);				// Set window size
+	glutCreateWindow("GL Line house");	        // Create display window
 
-	init();							                                            // Execute initialisation procedure
-	glutDisplayFunc(drawShapes);		                        // Send graphics to display window
-	glutMainLoop();					                                    // Display everything and wait
+	init();							            // Execute initialisation procedure
+	glutDisplayFunc(drawShapes);		        // Send graphics to display window
+	glutMainLoop();					            // Display everything and wait
 
 	return 0;
 }
