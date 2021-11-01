@@ -1,11 +1,7 @@
 # depslib dependency file v1.0
-1635314846 source:d:\12\graphics-lab\15-robot\main.cpp
-	<GL/gl.h>
-	<GL/glut.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
+1635786882 source:d:\12\16-houseandtree\main.cpp
 	<windows.h>
-	<stddef.h>
+	<GL/glut.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\windows.h
 	<_mingw.h>
@@ -869,6 +865,10 @@
 	<GL/gl.h>
 	<GL/glu.h>
 	<stdlib.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
+	<windows.h>
+	<stddef.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
