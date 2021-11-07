@@ -1,5 +1,5 @@
 ## Graphics Lab
 Codes and stuff
 
-For Color use `GL_COLOR3ub();` 
-link: https://htmlcolorcodes.com/
+_For Color use_ `GL_COLOR3ub();` 
+- Link: https://htmlcolorcodes.com/
