@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1636315494 source:d:\12\graphics-lab\18-scenary\main.cpp
+1636320786 source:d:\12\graphics-lab\18-scenary\main.cpp
 	<windows.h>
 	<GL/glut.h>
 	<stdio.h>

@@ -13,7 +13,7 @@ void init(void)
 
 void circle(int x, int y){
     float th;
-    glLineWidth(250.0);
+    //glLineWidth(250.0);
     glBegin(GL_POLYGON);
     for (int i=0; i<=360; i++){
         th = i*3.142/180;
@@ -28,26 +28,66 @@ void drawShapes(void)
 
 	// background sky
     glBegin(GL_POLYGON);
+        glColor3ub(93, 173, 226);
+        glVertex3f (0, 370, 0.0);
+        glVertex3f (600, 370, 0.0);
         glColor3ub(245, 183, 177);
-        glVertex3f (0, 400, 0.0);
-        glVertex3f (600, 400, 0.0);
-        glColor3ub(133, 193, 233);
         glVertex3f (600, 600, 0.0);
         glVertex3f (0, 600, 0.0);
     glEnd();
+
         // sun
         glColor3ub(241, 196, 15);
         circle(60,540);
 
+        // cloud
+        glColor3ub(255, 255, 255);
+        circle(470,540);
+        circle(500,540);
+        circle(500,560);
+        circle(530,540);
+
+        glColor3ub(255, 255, 255);
+        circle(200,500);
+        circle(230,500);
+        circle(230,520);
+        circle(250,500);
+
+        // lil buildings
+    glBegin(GL_POLYGON);
+        glColor3ub (23, 32, 42);
+        glVertex3f (0, 370, 0.0);
+        glVertex3f (20, 370, 0.0);
+        glVertex3f (20, 460, 0.0);
+        glVertex3f (0, 460, 0.0);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glColor3ub (23, 32, 42);
+        glVertex3f (22, 370, 0.0);
+        glVertex3f (60, 370, 0.0);
+        glVertex3f (60, 480, 0.0);
+        glVertex3f (22, 480, 0.0);
+    glEnd();
+
+    glBegin(GL_POLYGON);
+        glColor3ub (23, 32, 42);
+        glVertex3f (62, 370, 0.0);
+        glVertex3f (100, 370, 0.0);
+        glVertex3f (100, 420, 0.0);
+        glVertex3f (62, 420, 0.0);
+    glEnd();
+
+    // add color but shade it depending on the sun
 
     //  gradient water body
     glBegin(GL_POLYGON);
         glColor3ub (36, 113, 163);
         glVertex3f (0, 200, 0.0);
         glVertex3f (600, 200, 0.0);
-        glVertex3f (600, 400, 0.0);
-        glColor3ub(133, 193, 233);
-        glVertex3f (0, 400, 0.0);
+        glVertex3f (600, 370, 0.0);
+        glColor3ub(14, 86, 208);
+        glVertex3f (0, 370, 0.0);
     glEnd();
 
     // gradient grass
