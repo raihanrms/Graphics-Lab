@@ -3,4 +3,4 @@
 
 _For Color use_ `GL_COLOR3ub();` 
 
-*Link:* https://htmlcolorcodes.com/
+__Link:__ https://htmlcolorcodes.com/
