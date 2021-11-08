@@ -96,7 +96,7 @@ void drawShapes(void)
         glColor3ub (23, 32, 42);
         glVertex3f (70, 370, 0.0);
         glVertex3f (74, 370, 0.0);
-         glColor3ub (93, 109, 126);
+         glColor3ub (133, 146, 158);
         glVertex3f (74, 415, 0.0);
         glVertex3f (70, 420, 0.0);
     glEnd();
@@ -121,6 +121,26 @@ void drawShapes(void)
         glVertex3f (98, 440, 0.0);
     glEnd();
 
+     // B4
+    glBegin(GL_POLYGON);
+        glColor3ub (14, 102, 85);
+        glVertex3f (106, 370, 0.0);
+        glVertex3f (150, 370, 0.0);
+        glColor3ub (22, 160, 133);
+        glVertex3f (150, 400, 0.0);
+        glVertex3f (106, 400, 0.0);
+    glEnd();
+
+    // B4 shade
+    glBegin(GL_POLYGON);
+        glColor3ub (11, 83, 69);
+        glVertex3f (150, 370, 0.0);
+        glVertex3f (154, 370, 0.0);
+         glColor3ub (26, 188, 156);
+        glVertex3f (154, 395, 0.0);
+        glVertex3f (150, 400, 0.0);
+    glEnd();
+
 
     //  gradient water body
     glBegin(GL_POLYGON);
@@ -139,7 +159,6 @@ void drawShapes(void)
         glVertex3f (600, 0, 0.0);
         glColor3ub (29, 143, 76);
         glVertex3f (600, 200, 0.0);
-
         glVertex3f (0, 200, 0.0);
     glEnd();
 
