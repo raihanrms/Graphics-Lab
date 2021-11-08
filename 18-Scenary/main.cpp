@@ -13,7 +13,6 @@ void init(void)
 
 void circle(int x, int y){
     float th;
-    //glLineWidth(250.0);
     glBegin(GL_POLYGON);
     for (int i=0; i<=360; i++){
         th = i*3.142/180;
@@ -31,14 +30,14 @@ void drawShapes(void)
         glColor3ub(93, 173, 226);
         glVertex3f (0, 370, 0.0);
         glVertex3f (600, 370, 0.0);
-        glColor3ub(245, 183, 177);
+        glColor3ub(198, 212, 238);
         glVertex3f (600, 600, 0.0);
         glVertex3f (0, 600, 0.0);
     glEnd();
 
         // sun
-        glColor3ub(241, 196, 15);
-        circle(60,540);
+        glColor3ub(247, 220, 111);
+        circle(350,540);
 
         // cloud
         glColor3ub(255, 255, 255);
@@ -53,32 +52,75 @@ void drawShapes(void)
         circle(230,520);
         circle(250,500);
 
-        // lil buildings
+        // B1
     glBegin(GL_POLYGON);
-        glColor3ub (23, 32, 42);
+        glColor3ub (148, 49, 38);
         glVertex3f (0, 370, 0.0);
         glVertex3f (20, 370, 0.0);
+        glColor3ub(205, 97, 85);
         glVertex3f (20, 460, 0.0);
         glVertex3f (0, 460, 0.0);
     glEnd();
 
+          // B1 shade
     glBegin(GL_POLYGON);
-        glColor3ub (23, 32, 42);
-        glVertex3f (22, 370, 0.0);
-        glVertex3f (60, 370, 0.0);
-        glVertex3f (60, 480, 0.0);
-        glVertex3f (22, 480, 0.0);
+        glColor3ub (100, 30, 22);
+        glVertex3f (20, 370, 0.0);
+        glVertex3f (24, 370, 0.0);
+        glColor3ub(205, 97, 85);
+        glVertex3f (24, 455, 0.0);
+        glVertex3f (20, 460, 0.0);
     glEnd();
 
+        // B1 windows
+        glBegin(GL_POLYGON);
+        glColor3ub(41, 42, 44);
+        glVertex3f (2 , 448, 0.0);
+        glVertex3f (18, 448, 0.0);
+        glVertex3f (18 , 456, 0.0);
+        glVertex3f (2, 456, 0.0);
+        glEnd();
+
+        // B2
     glBegin(GL_POLYGON);
-        glColor3ub (23, 32, 42);
-        glVertex3f (62, 370, 0.0);
-        glVertex3f (100, 370, 0.0);
-        glVertex3f (100, 420, 0.0);
-        glVertex3f (62, 420, 0.0);
+        glColor3ub (41, 42, 44);
+        glVertex3f (28, 370, 0.0);
+        glVertex3f (70, 370, 0.0);
+         glColor3ub (93, 109, 126);
+        glVertex3f (70, 420, 0.0);
+        glVertex3f (28, 420, 0.0);
     glEnd();
 
-    // add color but shade it depending on the sun
+    // B2 shade
+    glBegin(GL_POLYGON);
+        glColor3ub (23, 32, 42);
+        glVertex3f (70, 370, 0.0);
+        glVertex3f (74, 370, 0.0);
+         glColor3ub (93, 109, 126);
+        glVertex3f (74, 415, 0.0);
+        glVertex3f (70, 420, 0.0);
+    glEnd();
+
+            // B3
+    glBegin(GL_POLYGON);
+        glColor3ub (241, 196, 15);
+        glVertex3f (78, 370, 0.0);
+        glVertex3f (98, 370, 0.0);
+         glColor3ub (244, 208, 63);
+        glVertex3f (98, 440, 0.0);
+        glVertex3f (78, 440, 0.0);
+    glEnd();
+
+    // B3 shade
+    glBegin(GL_POLYGON);
+        glColor3ub (154, 125, 10);
+        glVertex3f (98, 370, 0.0);
+        glVertex3f (102, 370, 0.0);
+         glColor3ub (244, 208, 63);
+        glVertex3f (102, 435, 0.0);
+        glVertex3f (98, 440, 0.0);
+    glEnd();
+
 
     //  gradient water body
     glBegin(GL_POLYGON);
@@ -95,8 +137,9 @@ void drawShapes(void)
         glColor3ub(11, 83, 69);
         glVertex3f (0, 0, 0.0);
         glVertex3f (600, 0, 0.0);
+        glColor3ub (29, 143, 76);
         glVertex3f (600, 200, 0.0);
-         glColor3ub (29, 143, 76);
+
         glVertex3f (0, 200, 0.0);
     glEnd();
 
@@ -110,7 +153,7 @@ int main(int argc, char* argv[])
 	glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);	// Set display mode
 	glutInitWindowPosition(500, 30);	// Set window position
 	glutInitWindowSize(1000, 800);	// Set window size
-	glutCreateWindow("GL Line house");	 // Create display window
+	glutCreateWindow("181400138");	 // Create display window
 	init();	 // Execute initialisation procedure
 	glutDisplayFunc(drawShapes);	 // Send graphics to display window
 	glutMainLoop();		// Display everything and wait
