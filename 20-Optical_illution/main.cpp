@@ -13,6 +13,7 @@ void init(void)
 
 void Optics(void)
 {
+
     // 1
     glColor3ub(74, 35, 90);
     glBegin(GL_POLYGON);
@@ -33,10 +34,10 @@ void Optics(void)
 
 
     // 3
-    glColor3ub(108, 52, 131);
+    glColor3ub(215, 189, 226);
     glBegin(GL_POLYGON);
         glVertex3f(400, 550, 0.0);
-        glVertex3f(500, 590, 0.0);
+        glVertex3f(500, 490, 0.0);
         glVertex3f(600, 550, 0.0);
         glVertex3f(500, 610, 0.0);
     glEnd();
@@ -50,6 +51,8 @@ void Optics(void)
         glVertex3f(500, 490, 0.0);
         glVertex3f(400, 550, 0.0);
     glEnd();
+
+
 
     // 5
     glColor3ub(142, 68, 173);
@@ -79,7 +82,7 @@ void Optics(void)
     glEnd();
 
     // 8
-    glColor3ub(81, 46, 95);
+    glColor3ub(215, 189, 226);
     glBegin(GL_POLYGON);
         glVertex3f(500, 690, 0.0);
         glVertex3f(600, 630, 0.0);
@@ -88,7 +91,7 @@ void Optics(void)
     glEnd();
 
     // 9
-    glColor3ub(21, 67, 96);
+    glColor3ub(81, 46, 95);
     glBegin(GL_POLYGON);
         glVertex3f(500, 690, 0.0);
         glVertex3f(600, 750, 0.0);
@@ -97,7 +100,7 @@ void Optics(void)
     glEnd();
 
     // 10
-    glColor3ub(26, 82, 118);
+    glColor3ub(215, 189, 226);
     glBegin(GL_POLYGON);
         glVertex3f(500, 800, 0.0);
         glVertex3f(600, 860, 0.0);
@@ -106,7 +109,7 @@ void Optics(void)
     glEnd();
 
     // 11
-    glColor3ub(31, 97, 141);
+    glColor3ub(99, 57, 116);
     glBegin(GL_POLYGON);
         glVertex3f(400, 810, 0.0);
         glVertex3f(500, 750, 0.0);
@@ -115,7 +118,7 @@ void Optics(void)
     glEnd();
 
     // 12
-    glColor3ub(36, 113, 163);
+    glColor3ub(215, 189, 226);
     glBegin(GL_POLYGON);
         glVertex3f(400, 690, 0.0);
         glVertex3f(500, 750, 0.0);

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1636751820 source:d:\12\graphics-lab\20-optical_illution\main.cpp
+1636839758 source:d:\12\graphics-lab\20-optical_illution\main.cpp
 	<windows.h>
 	<GL/glut.h>
 	<stdio.h>
