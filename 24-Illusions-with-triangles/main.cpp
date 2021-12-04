@@ -122,14 +122,14 @@ void init (void)
 /*  initialize viewing values  */
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(0.0, 500.0, 0.0, 600.0, -1.0, 1.0);
+    glOrtho(0.0, 600.0, 0.0, 600.0, -1.0, 1.0);
 }
 
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
     glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize (700, 700);
+    glutInitWindowSize (600, 600);
     glutInitWindowPosition (500, 100);
     glutCreateWindow ("Optical Illusion 2");
     init ();
