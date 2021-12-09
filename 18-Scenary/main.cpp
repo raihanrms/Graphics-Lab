@@ -175,6 +175,7 @@ int main(int argc, char* argv[])
 	glutCreateWindow("181400138");	 // Create display window
 	init();	 // Execute initialisation procedure
 	glutDisplayFunc(drawShapes);	 // Send graphics to display window
+	PlaySound(TEXT("bird-2.wav"), NULL, SND_ASYNC);
 	glutMainLoop();		// Display everything and wait
 
 	return 0;
