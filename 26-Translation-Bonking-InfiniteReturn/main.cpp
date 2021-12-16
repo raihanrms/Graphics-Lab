@@ -1,3 +1,4 @@
+#include <time.h>
 #include <windows.h>
 #ifdef __APPLE__
 #include <GLUT/glut.h>
@@ -8,12 +9,23 @@
 
 float x1_position = 0.0, x2_position = 0.0;
 bool position = 0;
+GLfloat x1 = -15.0f;
+GLfloat y1 = 420.0f;
+
+GLfloat x2 = -25.0f;
+GLfloat y2 = 70.0f;
 
 void display()
 {
     glClear(GL_COLOR_BUFFER_BIT);
+    // add text
+    glRasterPos2i(x1, y1);
+	for (char c : "181400138")
+	{
+		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
+	}
 
-    glLoadIdentity();
+	glLoadIdentity();
     glTranslatef( x1_position, 0.0, 0.0);
 
     glBegin(GL_POLYGON);
@@ -24,7 +36,12 @@ void display()
         glVertex2f(0, 60);
     glEnd();
 
-
+    // add text
+    glRasterPos2i(x2, y2);
+	for (char c : "Raihan Munim")
+	{
+		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
+	}
     glLoadIdentity();
     glTranslatef( x2_position, 0.0, 0.0);
 
@@ -76,7 +93,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
     glutInitWindowSize(500, 500);
-    glutInitWindowPosition(200, 100);
+    glutInitWindowPosition(1100, 100);
     glutCreateWindow("181400138");
 
     initOpenGL();

@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1639634913 source:d:\12\graphics-lab\26-translation-bonking-infinitereturn\main.cpp
+1639637612 source:d:\12\graphics-lab\26-translation-bonking-infinitereturn\main.cpp
+	<time.h>
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
@@ -894,4 +895,20 @@
 	<stdio.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_print_pop.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\time.h
+	<crtdefs.h>
+	<_timeval.h>
+	<sys/timeb.h>
+	<pthread_time.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sys\timeb.h
+	<crtdefs.h>
+	<sec_api/sys/timeb_s.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h
+	<sys/timeb.h>
+
+1526093420 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\pthread_time.h
+	<sys/timeb.h>
 
