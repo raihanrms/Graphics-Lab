@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1639586360 source:d:\12\graphics-lab\26-translation-bonking-infinitereturn\main.cpp
+1639634913 source:d:\12\graphics-lab\26-translation-bonking-infinitereturn\main.cpp
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>

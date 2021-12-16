@@ -30,10 +30,10 @@ void display()
 
     glBegin(GL_POLYGON);
         glColor3ub(51, 122, 255);
-        glVertex2f(0, 300);
-        glVertex2f(60, 300);
-        glVertex2f(60, 360);
-        glVertex2f(0, 360);
+        glVertex2f(0, 440);
+        glVertex2f(60, 440);
+        glVertex2f(60, 500);
+        glVertex2f(0, 500);
     glEnd();
 
     glutSwapBuffers();
@@ -61,7 +61,7 @@ void timer(int)
     glutTimerFunc(1000/60, timer, 0);
 
     if (x1_position > 500)
-        x1_position = -50;
+        x1_position = -380; // so they simultaneously move to the right together
             else x1_position += 1;
 
      if(x2_position==440) position = 1;
