@@ -20,6 +20,7 @@ void display()
     glClear(GL_COLOR_BUFFER_BIT);
     // add text
     glRasterPos2i(x1, y1);
+    glColor3ub();
 	for (char c : "181400138")
 	{
 		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
