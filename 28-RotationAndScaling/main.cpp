@@ -7,7 +7,7 @@
 #endif
 #include <stdio.h>
 
-float x1_position = 0.0, x2_position = 0.0;
+float x1_position = 0.0, x2_position = 0.0, x3_position = 0.0;
 bool position = 0;
 GLfloat x1 = -15.0f;
 GLfloat y1 = 420.0f;
@@ -18,41 +18,50 @@ GLfloat y2 = 70.0f;
 void display()
 {
     glClear(GL_COLOR_BUFFER_BIT);
-    // add text
-    glColor3ub(23, 32, 42);
-    glRasterPos2i(x1, y1);
-	for (char c : "181400138")
-	{
-		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
-	}
 
 	glLoadIdentity();
     glTranslatef( x1_position, 0.0, 0.0);
 
     glBegin(GL_POLYGON);
-        glColor3ub(255, 87, 51);
+        glColor3ub(94, 57, 171);
         glVertex2f(0, 0);
         glVertex2f(60, 0);
         glVertex2f(60, 60);
         glVertex2f(0, 60);
     glEnd();
 
-    // add text
-    glColor3ub(23, 32, 42);
-    glRasterPos2i(x2, y2);
-	for (char c : "Raihan Munim")
-	{
-		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
-	}
     glLoadIdentity();
     glTranslatef( x2_position, 0.0, 0.0);
 
     glBegin(GL_POLYGON);
-        glColor3ub(51, 122, 255);
+        glColor3ub(204, 33, 33);
         glVertex2f(0, 440);
         glVertex2f(60, 440);
         glVertex2f(60, 500);
         glVertex2f(0, 500);
+    glEnd();
+
+    glLoadIdentity();
+    //glRotated( x3_position, 0.0, 0.0);
+
+    glBegin(GL_POLYGON);
+        glColor3ub(41, 182, 246);
+        glVertex2f(95, 220);
+        glVertex2f(155, 220);
+        glVertex2f(155, 280);
+        glVertex2f(95, 280);
+    glEnd();
+
+
+    glLoadIdentity();
+    //glRotated( x4_position, 0.0, 0.0);
+
+    glBegin(GL_POLYGON);
+        glColor3ub(33, 204, 69);
+        glVertex2f(345, 220);
+        glVertex2f(405, 220);
+        glVertex2f(405, 280);
+        glVertex2f(345, 280);
     glEnd();
 
     glutSwapBuffers();
