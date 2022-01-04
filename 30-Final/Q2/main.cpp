@@ -65,11 +65,11 @@ void timer(int)
 
     if (x1_position > 200)
         x1_position = -200; // so they simultaneously move to the right together
-            else x1_position += 0.5;
+            else x1_position += 1;
 
     if (x2_position > 200)
         x2_position = -200;
-            else x2_position += 0.5;
+            else x2_position += 1;
 
 }
 int main(int argc, char **argv)
