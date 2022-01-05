@@ -1,6 +1,9 @@
-## Graphics Lab
-### Codes and stuff
+## Graphics Lab CSE-412
+### Codes and images from Lab 
 
-_For Color use_ `GL_COLOR3ub();` 
+#### Lab Started: 30th October 2021
+#### Lab Ended: 6th January 2022
 
-__Link:__ https://htmlcolorcodes.com/
+__Html colors link:__ https://htmlcolorcodes.com/
+
+_Note: This was a fun lab._
