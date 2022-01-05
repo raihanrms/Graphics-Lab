@@ -1,14 +1,56 @@
 # depslib dependency file v1.0
-1641365107 source:d:\12\graphics-lab\30-final\q2\main.cpp
+1641407836 source:d:\12\graphics-lab\30-final\gradient star\main.cpp
 	<time.h>
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<stdio.h>
 
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
-	<windows.h>
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\time.h
+	<crtdefs.h>
+	<_timeval.h>
+	<sys/timeb.h>
+	<pthread_time.h>
+
+1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\crtdefs.h
+	<_mingw.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw.h
+	"_mingw_mac.h"
+	"_mingw_secapi.h"
+	"_cygwin.h"
+	<vadefs.h>
+	"sdks/_mingw_directx.h"
+	"sdks/_mingw_ddk.h"
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_mac.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h
+
+1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_cygwin.h
 	<stddef.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\stddef.h
+	<crtdefs.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\vadefs.h
+	<_mingw.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sdks\_mingw_directx.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sdks\_mingw_ddk.h
+
+1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_timeval.h
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sys\timeb.h
+	<crtdefs.h>
+	<sec_api/sys/timeb_s.h>
+
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h
+	<sys/timeb.h>
+
+1526093420 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\pthread_time.h
+	<sys/timeb.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\windows.h
 	<_mingw.h>
@@ -49,34 +91,6 @@
 	<winsvc.h>
 	<mcx.h>
 	<imm.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw.h
-	"_mingw_mac.h"
-	"_mingw_secapi.h"
-	"_cygwin.h"
-	<vadefs.h>
-	"sdks/_mingw_directx.h"
-	"sdks/_mingw_ddk.h"
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_mac.h
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h
-
-1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_cygwin.h
-	<stddef.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\stddef.h
-	<crtdefs.h>
-
-1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\crtdefs.h
-	<_mingw.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\vadefs.h
-	<_mingw.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sdks\_mingw_directx.h
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sdks\_mingw_ddk.h
 
 1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sdkddkver.h
 
@@ -593,8 +607,6 @@
 	<psdk_inc/_xmitfile.h>
 	<psdk_inc/_wsa_errnos.h>
 
-1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_timeval.h
-
 1526093416 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\_bsd_types.h
 	<_mingw.h>
 
@@ -873,24 +885,12 @@
 	<GL/glu.h>
 	<stdlib.h>
 
+1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\gl.h
+	<windows.h>
+	<stddef.h>
+
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\gl\glu.h
 	<GL/gl.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\time.h
-	<crtdefs.h>
-	<_timeval.h>
-	<sys/timeb.h>
-	<pthread_time.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sys\timeb.h
-	<crtdefs.h>
-	<sec_api/sys/timeb_s.h>
-
-1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h
-	<sys/timeb.h>
-
-1526093420 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\pthread_time.h
-	<sys/timeb.h>
 
 1526093414 c:\program files\codeblocks\mingw\x86_64-w64-mingw32\include\stdio.h
 	<crtdefs.h>
